@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("pokemon_minimalist.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container {
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #989898;
+    border-radius: 5px;
+    box-shadow: #333;
+    line-height: 1.6;
+}
+
+.form-group input[type="submit"] {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #333;
+}
+
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.container {
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 60px; 
+    margin-bottom: 60px; 
+}
+
+#welcomeMessage {
+    color: var(--success); 
+}
